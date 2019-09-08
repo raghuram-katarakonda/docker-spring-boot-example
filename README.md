@@ -2,7 +2,9 @@
 Follow Below steps 
 
 Build/create image
+
 docker build -f <docker File name> -t <Image Name to create> .
+Example
 docker build -f Dockerfile -t docker-spring-boot .
 
 f= File
@@ -12,6 +14,7 @@ To check  the images
 docker images
 
 Run the Image
+
 docker run -p <On which port to run>:<docker file port> <ImageName>
 docker run -p 8000:8080 docker-spring-boot
 p= package 
