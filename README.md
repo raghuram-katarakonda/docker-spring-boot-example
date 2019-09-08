@@ -22,3 +22,5 @@ docker ps
 Kill the container
 docker container kill <container id>
 docker container kill 5c5c76c73e07
+
+
